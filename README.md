@@ -25,7 +25,9 @@ The back end for an e-commerce site
 
   ## Usage <a id="usage"></a>
 
-  To use the E-Commerce Back End, go into an API platform such as Insomnia or Postman. 
+  To use the E-Commerce Back End, first, add a .env file with the name of the database as DB_NAME = "ecommerce_db" with your MySQL username and password as DB_USER and DB_PASSWORD, respectively.
+  Then use the provided schema to create the database and also seed it using the provided seeds folder.
+  After the database has been created and seeded, go into an API platform such as Insomnia or Postman. 
   Access the different sections of the database using the following GET URLs: "http://localhost:3001/api/tags/", "http://localhost:3001/api/categories/", and "http://localhost:3001/api/products/". 
   Add an id number after the previous links to get the results for a specific item in that category, for example: "http://localhost:3001/api/products/1".
    Add to the database by using the same urls from above (without the id number) as a POST. 

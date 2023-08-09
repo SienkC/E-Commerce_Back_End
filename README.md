@@ -41,6 +41,9 @@ The back end for an e-commerce site
    
    Delete a specific item in any section by adding an id number and making it a DELETE.
 
+   [E-Commerce Back End Walkthrough.webm](https://github.com/SienkC/E-Commerce_Back_End/assets/133715604/8cd86ce0-d2b1-4eb7-b429-45d4a78a919b)
+
+
   ## Credits <a id="credits"></a>
 
   Base code provided by the boot camp creators at [UCF Boot Camps](https://bootcamp.ce.ucf.edu/).
